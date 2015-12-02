@@ -77,3 +77,5 @@ Some important hints and reminders:
 * Make sure to take advantage of the method we have written for you in order to get access to the keyboard inputs in the debugger window. These are `requestKeyboardInput`. Don't worry about how they work. Just know you get back the input from the user which you can store in a variable.
 * Use `NSLog` to "talk" to your user in the debugger.
 * For formatting, you can use `\n` in your strings to add line breaks and not have to write multiple `NSLog` statements if you don't want to. But multiple `NSLog` statements will work too!
+
+<a href='https://learn.co/lessons/ios-DeployOnDayOne' data-visibility='hidden'>View this lesson on Learn.co</a>
