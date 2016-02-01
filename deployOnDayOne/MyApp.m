@@ -13,14 +13,19 @@
 
 @end
 
-
 @implementation MyApp
 
--(void)execute
-{
-    // Begin writing your code here. This method will kick off automatically.
+#define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+    NSString *currentUser;
+    NSMutableDictionary *catagoriesAndQuestions;
+    NSMutableDictionary *userInformation;
 
 
+-(void)execute {
+    
+    
+    
 }
 
 
